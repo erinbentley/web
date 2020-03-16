@@ -1,95 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Html / CSS Homework</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-</head> 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand"  style="background-color: #0BADA6;" href="index.html">Latitude</a>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Plots
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="temp.html">Temperature</a></br>
-            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a></br>
-            <a class="dropdown-item" href="windspeed.html">Windspeed</a></br>
-            <a class="dropdown-item" href="humidity.html">Humidity</a>
-          </div>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="comparison.html">Comparison</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="data.html">Data</a>
-        </li>
-        </ul>
-      </div>
-    </nav>
-</div>
-  <div class="container">
-    <div class="row">
-        <div class="col-lg-7 col-md-12">
-          <div class="box">
-            <h3 class = "title">Summary: Latitude vs. X</h3>
-             <img src="Resources/assets/images/Fig1.png" class="vizualization rounded float-left" alt="Temperature">
-             <p>The html-css assignment is to create a dashboard that shows the climate comparison data we used to inform our research for the WeatherPy assignment. </br>
-               <br>The purpose of that assignment was to check for weather comparisons from at least 500 cities. We then used this data in matplotlib to create these visualizations. Think there's a coorelation? Take a look for yourself.
-                </a></p>
-            </div>
-        </div>
-        <div class="col-lg-5 col-md-12">
-          <div class="box">
-            <h3 class="title">Visualizations</h3>
-            <hr>
-            <div class="container">
-              <div class="row" style="padding-bottom: 30px;">
-                <div class="col-6">
-                  <a href="temp.html">
-                    <img class="panel" src="Resources/assets/images/Fig1.png" alt="Max Temperature">
-                  </a>
-                </div>
-                <div class="col-6">
-                  <a href="humidity.html">
-                    <img class="panel" src="Resources/assets/images/Fig1.png" alt="Humidity">
-                  </a>
-                </div>
+<DOCTYPE html>
+  <html lang="en">
+     <head>
+        <meta charset="UTF-8">
+        <title>Html / CSS Homework</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+     </head>
+     <body>
+        <div class="navigation"></div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           <a class="navbar-brand" href="index.html">Latitude</a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav navbar-nav navbar-right">
+              <li class="nav-item active"> </li>
+              <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots </a>
+                 <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="cloudiness.html">Cloudiness</a> <a class="dropdown-item" href="humidity.html">Humidity</a> <a class="dropdown-item" href="temp.html">Temperature</a> 
+                    <a class="dropdown-item" href="windspeed.html">Wind</a> 
+                 </div>
+              </li>
+              <li class="nav-item"> <a class="nav-link" href="comparison.html">Comparison</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="data.html">Data</a> </li>
+              </a>
+           </div>
+        </nav>
+        <script></script>
+        <div class="container">
+           <div class="row">
+              <div class="col-sm-4"></div>
+           </div>
+           <div class="card text-dark bg-light mb-3" style="max-width: 65rem;">
+              <div class="card-body">
+                 <p class="card-text">
+                 <div class="box">
+                    <h3 class="title">Summary: Latitude vs. X</h3>
+                    <br>
+                    <img src="Resources/assets/images/Fig1.png" class="vizualization rounded float-left" alt="Temperature">
+                 </div>
+                 <p> The html-css assignment is to create a dashboard that shows the climate comparison data we used to inform our research for the WeatherPy assignment.
+                    <br> The purpose of that assignment was to check for weather comparisons from at least 500 cities. We then used this data in matplotlib to create these visualizations.
+                    <br> Think there's a coorelation?
+                    <br> Take a look for yourself.
+                    <br>
+                 </p>
               </div>
-
-              <div class="row" style="padding-bottom: 30px;">
-                <div class="col-6">
-                  <a href="cloudiness.html">
-                    <img class="panel" src="Resources/assets/images/Fig3.png" alt="Cloudiness">
-                  </a>
-                </div>
-                <div class="col-6">
-                  <a href="windspeed.html">
-                    <img class="panel" src="Resources/assets/images/Fig4.png" alt="Wind Speed">
-                  </a>
-                </div>
-            </div>
-          </div>
+              </p>
+           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Footer -->
-<footer>
-<div class="footer"></div>
-        <p style="text-align:center">Erin Bentley</p>
-        </br>
-        <p style="text-align:center">UT Data Visuaization Boot Camp March 2020</p>
-</footer>
-
-</body>
-
-</html>
+        </div>
+        <div class="box">
+           <div class="col-md-4"></div>
+           <h3 class="title">Visualizations</h3>
+           <div class="box box-right">
+              <div class="row">
+                 <div class="col-lg-5 col-md-5"
+                    >
+                    <p>Temperature</p>
+                    <div class="box">
+                       <a href="temp.html"> <img src="Resources/assets/images/Fig1.png" class="container-fluid p-0" alt="lat_v_temp.png"></a>
+                    </div>
+                 </div>
+                 <div class="col-lg-5 col-md-5">
+                    <p>Humidity</p>
+                    <div class="box">
+                       <a href="humidity.html"> <img src="Resources/assets/images/Fig2.png" class="container-fluid p-0" alt="lat_v_humid.png"></a>
+                    </div>
+                 </div>
+                 <div class="row"><br></div>
+                 <div class="col-lg-5 col-md-5">
+                    <p><br><br><br><br><br><br><br><br>Cloudiness</p>
+                    <div class="box">
+                       <a href="cloudiness.html"> <img src="Resources/assets/images/Fig3.png" class="container-fluid p-0" alt="lat_v_cloud.png"></a>
+                    </div>
+                 </div>
+                 <div class="col-lg-5 col-md-5">
+                    <p><br><br><br><br><br><br><br><br>Wind Speed</p>
+                    <div class="box">
+                       <a href="windspeed.html"> <img src="Resources/assets/images/Fig4.png" class="container-fluid p-0" alt="lat_v_humid.png"> </a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+     </body>
+  </html>
